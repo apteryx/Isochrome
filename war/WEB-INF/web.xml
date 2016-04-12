@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xmlns="http://java.sun.com/xml/ns/javaee"
+		 xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+	
+
+	<!-- Servlets -->
+	<servlet>
+		<servlet-name>PyServlet</servlet-name>
+		<servlet-class>org.python.util.PyServlet</servlet-class>
+	</servlet>
+	
+	 <servlet>
+	   <servlet-name>matrixServlet</servlet-name>
+	   <servlet-class>kiwi.project.isochrome.server.MatrixServiceFacade</servlet-class>
+	   <init-param>
+	   	<param-name>PyServletName</param-name>
+	   	<param-value>MatrixServiceImpl</param-value>
+	   </init-param>
+	 </servlet>
+	 
+	 <servlet-mapping>
+        <servlet-name>PyServlet</servlet-name>
+        <url-pattern>*.py</url-pattern>
+    </servlet-mapping>
+	 
+	<servlet-mapping>
+	  <servlet-name>matrixServlet</servlet-name>
+	  <url-pattern>/distance_matrix/matrix</url-pattern>
+	</servlet-mapping>
+
+	<!-- Default page to serve -->
+	<welcome-file-list>
+	  <welcome-file>DistanceMatrix.html</welcome-file>
+	</welcome-file-list>
+</web-app>

@@ -1,0 +1,17 @@
+@FinalFields, false
+com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException, true, true, true, true, com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException/3936916533, 3936916533
+com.google.gwt.user.client.rpc.RpcTokenException, true, true, false, false, com.google.gwt.user.client.rpc.RpcTokenException/2345075298, 2345075298
+com.google.gwt.user.client.rpc.XsrfToken, false, false, true, true, com.google.gwt.user.client.rpc.XsrfToken/4254043109, 4254043109
+[I, true, true, false, false, [I/2970817851, 2970817851
+[[I, true, true, false, false, [[I/805731539, 805731539
+java.lang.Double, true, true, true, true, java.lang.Double/858496421, 858496421
+java.lang.Exception, true, false, true, false, java.lang.Exception/1920171873, 1920171873
+java.lang.Number, true, false, true, false, java.lang.Number/300033342, 300033342
+java.lang.RuntimeException, true, false, true, false, java.lang.RuntimeException/515124647, 515124647
+java.lang.String, true, true, true, true, java.lang.String/2004016611, 2004016611
+java.lang.Throwable, true, false, true, false, java.lang.Throwable/2953622131, 2953622131
+java.util.ArrayList, false, false, true, true, java.util.ArrayList/4159755760, 4159755760
+java.util.HashMap, true, true, true, true, java.util.HashMap/1797211028, 1797211028
+java.util.LinkedHashMap, true, true, true, true, java.util.LinkedHashMap/3008245022, 3008245022
+kiwi.project.isochrome.client.City, true, true, true, true, kiwi.project.isochrome.client.City/2895335844, 2895335844
+kiwi.project.isochrome.client.MatrixService, false, false, false, false, _, 666818476
